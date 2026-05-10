@@ -295,3 +295,52 @@ button{
     border-radius:15px;
     margin:15px 0;
 }
+.quick-tools{
+    display:flex;
+    gap:15px;
+    padding:20px;
+}
+
+.tool-btn{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    font-size:16px;
+    text-align:center;
+    text-decoration:none;
+    background:linear-gradient(90deg,#ffd700,#ffae00);
+    color:#111;
+    font-weight:bold;
+}
+
+.card p{
+    margin:10px 0;
+    color:#aaa;
+    font-size:14px;
+}
+
+.float-service{
+    position:fixed;
+    right:20px;
+    bottom:100px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-weight:bold;
+    background:linear-gradient(145deg,#ffd700,#ffae00);
+    color:#111;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    z-index:999;
+}
+
+.bottom-nav{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
