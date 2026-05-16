@@ -344,3 +344,27 @@ button{
     bottom:0;
     width:100%;
 }
+.welcome-box{
+    margin:20px;
+    padding:18px;
+    border-radius:18px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    color:#ffd700;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(255,215,0,.12),
+        rgba(255,255,255,.03)
+    );
+
+    border:1px solid rgba(255,215,0,.25);
+
+    box-shadow:
+    0 8px 30px rgba(0,0,0,.35),
+    inset 0 1px 1px rgba(255,255,255,.06);
+
+    backdrop-filter:blur(10px);
+}
